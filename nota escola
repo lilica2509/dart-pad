@@ -1,0 +1,13 @@
+void main()
+{
+  double nota1 = 5.7;
+  double nota2 = 7.2;
+  
+  double media = (nota1 + nota2)/2; 
+    
+    if(media >= 6){
+     print("este aluno teve uma media de $media e foi aprovado!");
+    }else{
+     print("este aluno teve uma media de $media e reprovou!");
+    }
+}
